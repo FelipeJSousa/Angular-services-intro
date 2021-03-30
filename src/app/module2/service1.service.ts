@@ -9,5 +9,6 @@ export class Service1Service {
   public number = 0
   constructor() { 
     this.number = Math.round(Math.random()*1000);
+    console.log(`Service1 constructor()`)
   }
 }
